@@ -1,0 +1,50 @@
+# a = 5
+# for i in range(a):
+#     print('*' * (i+1))
+
+# a = 5
+# for i in range(a):
+#     print(" " * (a-(i+1)), end="")
+#     print('*' * (i+1))
+
+# a = 5
+# for i in range(a):
+#     print('*' *(a-i))
+
+# a = 5
+# for i in range(a):
+#     print(" " * (a-i-1), end="")
+#     print('*' * ((i+1)*2-1))
+
+# a = 7
+# c=14
+# b=2
+# for i in range(a):
+#     print(' ' * i, end='')
+#     print("*" * (c-(i*b+1)))
+# for i in range(a):
+#     print(" " * (a-i-1), end="")
+#     print('*' * ((i+1)*2-1))
+#
+# a=5
+# for i in range(a):
+#     print(' ' * (a-i-1), end='')
+#     print('*' * ((i*2)+1))
+# b=4
+# c=8
+# for i in range(b):
+#     print(' ' * (i+1), end='')
+#     print('*' * ((c-2*i)-1))
+
+# k = int(input('밑변의 길이를 입력 하세요:'))
+#
+# for i in range(k):
+#     print('*' * (i+1), end='')
+#     print(' ' * (k-i), end='')
+#     print('*' * (k - i))
+#
+# for i in range(k):
+#     print(' ' * (k-i), end='')
+#     print('*' * (i+1), end='')
+#     print(' ' * (i+1), end='')
+#     print('*' * (k-i))
